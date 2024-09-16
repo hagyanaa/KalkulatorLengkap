@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/hotPink</item>
+        <item name="colorPrimaryDark">@color/pink</item>
+        <item name="colorAccent">@color/lightCyan</item>
+    </style>
+
+    <!-- Button style for calculator buttons -->
+    <style name="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">@color/hotPink</item> <!-- Warna tombol hotPink -->
+        <item name="android:textColor">@color/black</item> <!-- Warna teks tombol putih -->
+    </style>
+
+</resources>
